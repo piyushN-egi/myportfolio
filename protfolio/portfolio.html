@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Negi | IT Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <h3 class="logo">Piyush</h3>
+            <div class="nav-links">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certs">Certificates</a>
+                <a href="#contact">Contact</a>
+                <a href="resume.pdf" class="btn">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Hi, I'm <span>Piyush Negi</span></h1>
+        <h2>I am a <span id="typing"></span></h2>
+        <p>
+            IT student focused on building original, practical projects
+            combining technology, design, and management.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2><br>
+        <div class="grid">
+
+            <!-- TECH -->
+            <div class="card skill"><i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Semantic & accessible structure</p>
+                <div class="bar"><span style="width:90%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Responsive modern UI</p>
+                <div class="bar"><span style="width:85%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Logic & interactions</p>
+                <div class="bar"><span style="width:75%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Automation & problem solving</p>
+                <div class="bar"><span style="width:80%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-c"></i>
+                <h3>C / C++</h3>
+                <p>Core programming</p>
+                <div class="bar"><span style="width:75%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-microchip"></i>
+                <h3>Arduino</h3>
+                <p>Robotics & sensors</p>
+                <div class="bar"><span style="width:70%"></span></div>
+            </div>
+
+            <!-- DESIGN & TOOLS -->
+            <div class="card skill"><i class="fa-solid fa-pen-nib"></i>
+                <h3>UI / UX Design</h3>
+                <p>User-centric interfaces & wireframes</p>
+                <div class="bar"><span style="width:78%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-file-lines"></i>
+                <h3>Google Docs</h3>
+                <p>Documentation & reports</p>
+                <div class="bar"><span style="width:85%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-table"></i>
+                <h3>Google Sheets</h3>
+                <p>Data handling & analysis</p>
+                <div class="bar"><span style="width:80%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-display"></i>
+                <h3>Google Slides</h3>
+                <p>Professional presentations</p>
+                <div class="bar"><span style="width:82%"></span></div>
+            </div>
+
+            <!-- SOFT SKILLS -->
+            <div class="card skill"><i class="fa-solid fa-people-group"></i>
+                <h3>Management</h3>
+                <p>Leadership & coordination</p>
+                <div class="bar"><span style="width:78%"></span></div>
+            </div>
+            <div class="card skill"><i class="fa-solid fa-video"></i>
+                <h3>Content Creator</h3>
+                <p>Tech content & storytelling</p>
+                <div class="bar"><span style="width:72%"></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2><br>
+        <div class="grid">
+
+            <!-- DIGITAL DNA -->
+            <div class="card">
+                <h3>Digital DNA</h3>
+                <p>
+                    A conceptual system that represents an individual's digital identity
+                    using behavioral patterns, online activity structure, and data traits.
+                    It focuses on how digital footprints define a person in the virtual world.
+                </p>
+                <p><strong>Features:</strong></p>
+                <ul style="margin-left:18px; color:#cbd5f5; font-size:14px">
+                    <li>Digital identity modeling</li>
+                    <li>Behavior pattern analysis</li>
+                    <li>Future-ready digital profiling</li>
+                </ul>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card">
+                <h3>Digital Memory Loss Simulator</h3>
+                <p>A unique simulation that demonstrates how digital data degrades
+                    due to corruption, dependency loss, and format obsolescence.</p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card">
+                <h3>Gesture Based OS Controller</h3>
+                <p>A computer vision based system that allows users to control
+                    operating system actions using hand gestures.</p>
+                <p><strong>Tech:</strong> Python, OpenCV</p>
+            </div>
+            <div class="card">
+                <h3>Smart Obstacle Avoiding Robot</h3>
+                <p>An autonomous robot capable of detecting and avoiding obstacles
+                    using ultrasonic sensors and microcontroller logic.</p>
+                <p><strong>Tech:</strong> Arduino</p>
+            </div>
+
+            <div class="project-card cyber">
+                <div class="card-top">
+                    <span class="tag">Cyber Security</span>
+                </div>
+
+                <h3>Phishing Evolution Simulator</h3>
+
+                <p>
+                    A real-world phishing awareness simulator that mimics SMS, calls,
+                    OTP pressure and instantly demonstrates system breach consequences
+                    based on user actions.
+                </p>
+
+                <ul class="features">
+                    <li>✔ Real SMS intent simulation</li>
+                    <li>✔ Call-based phishing scenarios</li>
+                    <li>✔ OTP urgency & psychology attack</li>
+                    <li>✔ Awareness score + certificate</li>
+                </ul>
+
+                <div class="stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Cyber Security</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certs">
+        <h2>Certifications & Achievements</h2><br>
+        <div class="grid">
+            <div class="card cert"><img src="cert1.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert2.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert3.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert4.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert5.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert6.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert7.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert8.jpg" onclick="openPopup(this.src)"></div>
+            <div class="card cert"><img src="cert9.png" onclick="openPopup(this.src)"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: negipiyush257@gmail.com</p>
+        <p>GitHub: github.com/piyushN-egi</p>
+        <p>LinkedIn: linkedin.com/in/piyush-singh01</p>
+    </section>
+
+    <footer>
+        © 2025 Piyush Negi | Clean • Practical • Recruiter-Ready
+    </footer>
+
+    <div id="popup">
+        <span onclick="closePopup()">&times;</span>
+        <img id="popupImg">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
